@@ -19,7 +19,7 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         
         
         String ver = "こちらはマスターの変更です。";
-        
+        String version = "ブランチのはず"
         
         
         self.webView = UIWebView(frame: self.view.bounds);
