@@ -18,8 +18,8 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         self.view.backgroundColor = UIColor.redColor();
         
         
-        String ver = "こちらはマスターの変更です。";
-        String version = "ブランチのはず"
+        var ver:String = "こちらはマスターの変更です。";
+        var xversion:String = "ブランチのはず"
         
         
         self.webView = UIWebView(frame: self.view.bounds);
