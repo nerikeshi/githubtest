@@ -18,7 +18,7 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         self.view.backgroundColor = UIColor.redColor();
         
         
-        
+        String version = "ブランチのはず"
         
         
         self.webView = UIWebView(frame: self.view.bounds);
