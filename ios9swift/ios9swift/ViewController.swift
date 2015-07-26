@@ -18,6 +18,7 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         self.view.backgroundColor = UIColor.redColor();
         
         
+        String ver = "こちらはマスターの変更です。";
         
         
         
