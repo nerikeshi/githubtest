@@ -17,6 +17,10 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         super.loadView();
         self.view.backgroundColor = UIColor.redColor();
         
+        
+        
+        
+        
         self.webView = UIWebView(frame: self.view.bounds);
         self.webView?.scalesPageToFit = true;
         self.view.addSubview((self.webView)!);
